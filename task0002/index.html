@@ -1,0 +1,32 @@
+<!DOCTYPE html>	left: 70%;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PictureSwitch</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="img_box" >
+		<img id="img" src="images/xx.png">
+	</div>
+	<div class="button_box">
+		<button id="xx">小新</button></br></br></br>
+		<button id="bw">巴卫</button>
+	</div>
+
+<script>
+    var btn1=document.getElementById("xx");
+    var btn2=document.getElementById("bw");
+    var img=document.getElementById("img");
+
+    btn1.onclick=function(){
+        img.setAttribute("src","images/xx.png");
+        body.style.backgroundImage = 'url(images/xx-bg.png)';
+    }
+    btn2.onclick=function(){
+        img.setAttribute("src","images/bw.png");
+        body.style.backgroundImage = 'url(images/bw-bg.png)';
+    }
+</script>
+</body>
+

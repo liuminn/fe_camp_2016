@@ -1,0 +1,58 @@
+html
+{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+body
+{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: "宋体";
+	font-size: 20px;
+	background-image: url(images/xx-bg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.img_box
+{
+	width: 30%;
+	top: 50%; 
+	transform: translateY(-50%);
+	position: absolute;
+	margin-left: 200px;
+
+}
+.button_box
+{
+	top: 50%; 
+	margin-top: -50px; 
+	position: absolute; 
+	padding:0;
+	left: 70%;
+}
+.button_box button
+{
+	height: 50px;
+	width: 240px;
+}
+button:xx
+{
+	background-image: url(images/btn-blue.png);
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-width: 0;
+	border-radius: 5px;
+}
+button:bw
+{
+	background-image: url(images/btn-gray.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-width: 0;
+	border-radius: 5px;
+}
